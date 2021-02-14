@@ -1,0 +1,85 @@
+body {
+  /* width:100%;
+  height:100%; */
+  text-align: center;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.hand, .comHand{
+  width: 300px;
+  height: 30%;
+  display: inline;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+
+img {
+  /* width: 300px;
+  height: 300px; */
+  width: 13%;
+  height: 13%;
+  text-align: center;
+
+
+}
+
+.player1{
+  position: relative;
+  margin:0;
+}
+
+.com{
+  position: relative;
+  margin:0;
+}
+
+
+
+.result{
+  display: block;
+  width:100%;
+  height:100px;
+  text-align: center;
+  vertical-align: middle;
+  /* margin-top: 25px; */
+  margin-bottom: 20px;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+#middle{
+  vertical-align: middle;
+}
+
+
+.retry{
+  display: block;
+  /* margin-left: 50%;
+  margin-right: 50%; */
+  text-align: center;
+  width:300px;
+  height:300px;
+  margin-top: 0px;
+  margin-left:  auto;
+  margin-right: auto;
+
+
+}
+
+
+div:hover{
+  opacity: 0.5;
+}
+
+.hand:hover{
+  color: red;
+}
+
+
+.result {
+  pointer-events: none;
+}
